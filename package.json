@@ -1,13 +1,13 @@
 {
   "name": "applet-script",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "min-app-pack 小程序打包",
   "main": "./bin/applet-script",
   "bin": {
     "applet-script": "./bin/applet-script"
   },
   "keywords": [
-    "min-app-script",
+    "applet-script",
     "小程序",
     "小程序编译",
     "min-app"

@@ -1,0 +1,57 @@
+{
+  "name": "applet-script",
+  "version": "1.0.0",
+  "description": "min-app-pack 小程序打包",
+  "main": "./bin/applet-script",
+  "bin": {
+    "applet-script": "./bin/applet-script"
+  },
+  "keywords": [
+    "min-app-script",
+    "小程序",
+    "小程序编译",
+    "min-app"
+  ],
+  "scripts": {},
+  "author": "chenlinboss",
+  "license": "MIT",
+  "homepage": "https://github.com/chenlinboss/applet-script",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenlinboss/applet-script"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-typescript": "^7.13.0",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "chokidar": "^3.5.2",
+    "commander": "^7.2.0",
+    "copy-node-modules": "^1.1.1",
+    "cross-spawn": "^7.0.3",
+    "delete-assets-webpack-plugin": "^1.0.0",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-webpack-plugin": "^2.5.4",
+    "express": "^4.17.1",
+    "file-loader": "^6.2.0",
+    "less": "^4.1.1",
+    "less-loader": "^9.0.0",
+    "less-plugin-clean-css": "^1.5.1",
+    "sass": "^1.32.13",
+    "sass-loader": "^11.1.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-webpack-plugin": "^2.1.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-merge": "^5.7.3",
+    "webpackbar": "^5.0.0-3"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "applet-script",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "min-app-pack 小程序打包",
   "main": "./bin/applet-script",
   "bin": {

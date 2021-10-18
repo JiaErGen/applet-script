@@ -115,9 +115,7 @@ const webpackConfig = {
               presets: [
                 [
                   '@babel/preset-env',
-                  {
-                    "targets": scriptConfig.targets,
-                  }
+                  scriptConfig['@babel/preset-env'],
                 ],
                 '@babel/preset-typescript'
               ],
